@@ -42,3 +42,27 @@
   --yellow: rgba(255, 248, 0);
   --red: rgba(255, 102, 94);
 }
+
+.dp__top-landing {
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  justify-items: center;
+  -webkit-align-content: center;
+}
+
+.dp__top-landing-logo{
+  width: 25vw;
+}
+
+.dp__top-landing-center--info {
+  display: grid;
+  justify-items: center;
+  line-height: 0;
+  margin-top: 12px;
+}
+
+.dp__top-landing-center--info h1, 
+.dp__top-landing-center--info p {
+  margin: 0;
+}
