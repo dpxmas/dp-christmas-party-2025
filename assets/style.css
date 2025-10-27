@@ -25,44 +25,143 @@
   font-weight: normal;
 
   color-scheme: light dark;
-  color: rgba(62, 62, 62, 0.87);
-  background-color: #fff;
+  background: #fff url("../images/background.png") repeat fixed center;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --green: rgb(22, 155, 98); 
-  /* #169b62 */
-  --blue: rgb(0, 120, 191);
-  /* #0078bf */
-  --orange: rgb(228, 150, 28);
-  /* #e4961c */
-  --yellow: rgba(255, 248, 0);
-  --red: rgba(255, 102, 94);
+  --white: rgb(237, 237, 237); 
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--white);
+  /* letter-spacing: 1px; */
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 16px;
+}
+
+hr {
+  display: block;
+  /* height: 8px; */
+  border: 0;
+  border-top: 16px solid #92663e;
+  margin: 0;
+  padding: 0;
 }
 
 .dp__top-landing {
+  display: grid;
   height: 100vh;
-  width: 100vw;
   align-content: center;
   justify-items: center;
   -webkit-align-content: center;
 }
 
 .dp__top-landing-logo{
-  width: 25vw;
+  max-width: 20vw;
+}
+
+@media screen and (max-width: 768px) {
+  .dp__top-landing-logo{
+    max-width: 50vw;
+  }
 }
 
 .dp__top-landing-center--info {
   display: grid;
   justify-items: center;
-  line-height: 0;
-  margin-top: 12px;
+  text-align: center;
+}
+
+.dp__top-landing-center--info-top {
+  line-height: 40px;
+  margin-top: 32px
+}
+
+.dp__top-landing-center--info-bot {
+  margin-top: 40px;
 }
 
 .dp__top-landing-center--info h1, 
 .dp__top-landing-center--info p {
   margin: 0;
+}
+
+.dp__bot-landing {
+  /* display: flex;
+  justify-content: center; */
+  /* background-color: rgba(0,0,0,0.5); */
+  padding: 2em 0;
+  position: relative;
+}
+
+#letter {
+  /* position: absolute; */
+  /* display: flex; */
+  /* width: 50%; */
+  /* min-height: calc((1vw + 1vh) * 75); */
+  /* center page with absolute position */
+  /* top: 0%; left: 50%; transform: translate(-50%, 0); */
+  margin-top: 2em;
+  margin-bottom: 0;
+  width: 75%;
+  padding: 4em;
+  box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+  background: #fffef0;
+  filter: url(#wavy2);
+}
+
+#letter h2 {
+  color: black;
+}
+
+#letter p {
+  font-size: 20px;
+  color: black;
+}
+
+#parol-1 {
+  height: 180px; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  margin: 2em 1em;
+}
+
+@media screen and (max-width: 940px) {
+  #parol-1{
+    height: 140px;
+  }
+}
+
+#parol-2 {
+  height: 240px; 
+  position: absolute; 
+  left: 0; 
+  margin: 0 8em;
+}
+
+@media screen and (max-width: 768px) {
+  #parol-2{
+    margin: 0 1em;
+  }
+}
+
+#details {
+  margin: 4em 8em;
+  text-align: center;
 }
