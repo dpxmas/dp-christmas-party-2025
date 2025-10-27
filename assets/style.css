@@ -1,20 +1,23 @@
 @font-face {
   font-family: "Bantayog";
-  src: url("../fonts/bantayog/Bantayog-Light.woff2") format("woff2"),;
+  src: url("../fonts/bantayog/Bantayog-Light.woff2") format("woff2"),
+       url("../fonts/bantayog/Bantayog-Light.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Bantayog";
-  src: url("../fonts/bantayog/Bantayog-Semilight.woff2") format("woff2");
+  src: url("../fonts/bantayog/Bantayog-Semilight.woff2") format("woff2"),
+       url("../fonts/bantayog/Bantayog-Semilight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Bantayog";
-  src: url("../fonts/bantayog/Bantayog-Regular.woff2") format("woff2");
+  src: url("../fonts/bantayog/Bantayog-Regular.woff2") format("woff2"),
+       url("../fonts/bantayog/Bantayog-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
