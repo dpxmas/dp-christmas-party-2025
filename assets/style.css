@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Bantayog";
-  src: url("../fonts/PPRaderWeb/Bantayog-Light.woff2") format("woff2");
+  src: url("../fonts/Bantayog-Light.woff2") format("woff2"),;
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Bantayog";
-  src: url("../fonts/PPRaderWeb/Bantayog-Semilight.woff2") format("woff2");
+  src: url("../fonts/Bantayog-Semilight.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Bantayog";
-  src: url("../fonts/PPRaderWeb/Bantayog-Regular.woff2") format("woff2");
+  src: url("../fonts/Bantayog-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
