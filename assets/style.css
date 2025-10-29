@@ -58,7 +58,7 @@ h2 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 hr {
@@ -80,12 +80,12 @@ hr {
 }
 
 .dp__top-landing-logo{
-  max-width: 20vw;
+  max-width: 40vw;
 }
 
 @media screen and (max-width: 768px) {
   .dp__top-landing-logo{
-    max-width: 50vw;
+    max-width: 75vw;
   }
 }
 
@@ -170,12 +170,35 @@ hr {
 }
 
 #attire{
-  margin: 0 8em 8em;
+  margin: 0 8em;
   text-align: right;
 }
 
+#filipiniana {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#barong {
+  margin-top: 4px;
+  width: 100%;
+  justify-content: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.dp__attire-image {
+  top: 10px;
+  height: 240px;
+  padding: 8px;
+  background-color: var(--white);
+}
+
 #details {
-  margin: 4em 8em;
+  display: grid;
+  margin: 2em 8em;
   text-align: center;
 }
 
@@ -192,7 +215,7 @@ hr {
 }
 
 #rsvp-button {
-  max-width: 3600px;
+  width: 240px;
   padding: 16px 24px;
   background-color: var(--red);
   text-decoration: none;
